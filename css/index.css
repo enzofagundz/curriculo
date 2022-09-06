@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', "Geneva", Verdana, sans-serif;
+    color: #181818;
+    font-size: 16px;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    width: 100vw;
+}
+
+
+.nav-container {
+    position: sticky;
+    display: block;
+    align-items: center;
+    width: 100vw;
+    height: 5vw;
+    line-height: 0;
+    background-color: #fdfdfd;
+}
+
+.container {
+    display: block;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    left: 0.5vw;
+    top: 1.25vw;
+}
+
+.logo h1 {
+    display: inline;
+}
+
+.logo h1 a img {
+    width: 4vw;
+}
+
+.menu-opcoes {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 2.5vw;
+}
+
+.menu-opcoes ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    padding-right: 2vw;
+}
+
+.menu-opcoes ul li a {
+    text-decoration: none;
+    color: #181818;
+}
+
+.menu-opcoes ul li a:hover {
+    color: #3D05F5;
+}
+
+#home {
+    position: relative;
+    display: inline;
+}
+.home-container{
+    padding-top: 20vh;
+    height: 100vh;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.content-0{
+    position: relative;
+    vertical-align: middle
+}
+
+
+.content-1 h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    color: #3D05F5;
+    margin-bottom: 2vw;
+    line-height: 80%;
+}
+
+.content-2 p {
+    width: 56%;
+    text-align: left;
+    line-height: 1.2em;
+    margin-bottom: 2vw;
+}
+
+.content-2 button {
+    background-color: #3D05F5;
+    border: 0;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.content-2 button a {
+    font-size: 0.75em;
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+.content-3 {
+    display: inline-block;
+}
+
+.content-3 img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38vw;
+}
+
+#sobre{
+    position: relative;
+    display: inline-block;
+    background-image: url(../img/background-sobre.jpg
+    );
+    background-size: 100vw;
+}
+
+.sobre-container {
+    padding-top: 10vh;
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sobre-texto h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    color: #F5DE05;
+    margin-bottom: 8vh;
+    width: 50vw;
+}
+
+.sobre-texto p{
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.2em;
+    margin-bottom: 2vw;
+    color: #fdfdfd;
+    width: 60%;
+}
+
+.sobre-imagem{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.sobre-imagem img{
+    width: 36vw;
+    margin: 8vh 4vw 0 0;
+}
+
+#academico{
+    position: relative;
+    display: inline-block;
+    background-color:#2902A8;
+    width: 100vw;
+}
+
+.academico-container{
+    padding-top: 10vh;
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    border: #F5DE05 solid 1vw;
+    border-radius: 30%;
+    background-color: #3D05F5;
+}
+
+.academico-imagens{
+    display: inline-block;
+    position: absolute;
+    right: 20vw;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.academico-imagens figure{
+    display: inline-block;
+    border-radius: 5%;
+    height: 50vh;
+    width: 20vw;
+    background-color: #fdfdfd;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    padding: 1vw;
+}
+
+.academico-imagens figcaption{
+    font-style: italic;
+    margin: 2% auto 2% auto;
+}
+
+.academico-imagens img{
+    width: 18vw;
+}
+
+.academico-texto {
+    position: relative;
+    margin-bottom: 4vh;
+}
+
+.academico-texto h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: #F5DE05;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2vh;
+}
+
+.academico-texto p{
+    margin-left: 19vw;
+    position: relative;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.2em;
+    color: #fdfdfd;
+    width: 60%;
+    margin-bottom: 1vh;
+}
+
+#portfolio {
+    position: relative;
+    display: inline;
+}
+
+.portfolio-container{
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/background-portfolio.jpg);
+    padding-top: 3vh;
+}
+
+.portfolio-texto h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 5em;
+    font-weight: bolder;
+    color: #fdfdfd;
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.portfolio-slide{
+margin-left: 18vw;
+}
+
+.portfolio-slide iframe{
+    width: 60vw;
+    height: 30vw;
+}
+
+#rodape{
+    width: 100%;
+    height: 15vh;
+    display: inline-block;
+    background-color: #181818;
+}
+
+.redes-sociais{
+    padding-right: 30px;
+}
+
+.redes-sociais ul{
+    padding-top: 40px;
+    float: right;
+    list-style: none;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+}
+
+.redes-sociais ul li img{
+    width: 25px;
+}
+.rodape-container p{
+    float: left;
+    color: #fdfdfd;
+    font-size: 1em;
+    padding-left: 30px;
+    padding-top: 40px;
+}
